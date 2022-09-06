@@ -10,7 +10,11 @@
 }
 
 .image {
+<<<<<<< HEAD
     background-image: url(Images/header_background_01.jpg);
+=======
+    background-image: url(./Images/header_background_01.jpg);
+>>>>>>> 5e2a50510b1f8d2e75fb3e3db400a1fa3be8b8aa
     width: 100%;
     height: 150px;
 }
