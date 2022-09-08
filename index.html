@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
   <link rel="stylesheet" href="styles.css">
@@ -26,10 +26,70 @@
     <button class="tablinks" onclick="openPage(event, 'Home')" id="defaultOpen"> Home </button>
     <button class="tablinks" onclick="openPage(event, 'All_Blogs')"> All Blogs </button>
     <button class="tablinks" onclick="openPage(event, 'About_Me')"> About Me </button>
-    <button class="tablinks" onclick="openPage(event, 'Recommended_Resources')"> Recommended Resources </button>
   </div>
 
   <div id="Home" class="tabcontent">
+    <article>
+      <header class="article_title"> Welcome </header>
+      <p class="article_paragraph"> 
+        Hello there!
+        I am an Audio Video programmer working for a local state college implementing new technologies to classrooms. 
+        This is a field until 5-7 years ago I never even remotely considered or thought about. 
+        I graduated college with a bachelors degree in Biology and realistically minimal ideas or what I wanted for myself as a career. 
+        I had ideas of working an environmental job or teaching, but never gained enough desire to truly pursue those. 
+      </p>
+    </article> 
+
+    <article>
+      <table class="table">
+        <tr>
+          <th> Top Blogs </th>
+          <th> Date </th>
+        </tr>
+        <tr>
+          <td><a href="#"><img src ="Images/header_background_01.jpg" height = "200" width = "300" /><br />Blog Title </a></td>
+          <td> Sept 5th 2022 </td>
+        </tr>
+      </table>
+    </article>
+
+    <article class="subscribe_article">
+      <header class="article_title"> Subscribe Below </header>
+      <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
+      <div class="subscribe_form">
+            <input type="text" placeholder="Enter Email Address" name="subscribe">
+            <button type="submit">Subscribe</button>
+        </div>
+    </article>
+  </div>
+  
+
+  <div id="All_Blogs" class="tabcontent">
+    <article>
+      <table class="table">
+        <tr>
+          <th> Top Blogs </th>
+          <th> Date </th>
+        </tr>
+        <tr>
+          <td><a href="#"><img src ="Images/header_background_01.jpg" height = "200" width = "300" /><br />Blog Title </a></td>
+          <td> Sept 5th 2022 </td>
+        </tr>
+      </table>
+    </article>
+
+    <article class="subscribe_article">
+      <header class="article_title"> Subscribe Below </header>
+      <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
+      <div class="subscribe_form">
+            <input type="text" placeholder="Enter Email Address" name="subscribe">
+            <button type="submit">Subscribe</button>
+        </div>
+    </article>
+
+  </div>
+  
+  <div id="About_Me" class="tabcontent">
     <article>
       <header class="article_title"> About Me </header>
       <p class="article_paragraph"> 
@@ -41,72 +101,14 @@
       </p>
     </article> 
 
-    <article>
-      <table class="table1">
-        <tr>
-          <th> Thumbnail </th>
-          <th> Blog Title </th>
-          <th> Date </th>
-        </tr>
-        <tr>
-          <th> Image </th>
-          <th> first title of blog </th>
-          <th> Sept 5th 2022 </th>
-        </tr>
-      </table>
+    <article class="subscribe_article">
+      <header class="article_title"> Subscribe Below </header>
+      <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
+      <div class="subscribe_form">
+            <input type="text" placeholder="Enter Email Address" name="subscribe">
+            <button type="submit">Subscribe</button>
+        </div>
     </article>
-  </div>
-  
-  <div id="All_Blogs" class="tabcontent">
-    <p> 
-      1. Here is the giant sortable list of blog posts. 
-    </p>
-
-    <table>
-      <tr>
-        <th> Thumbnail </th>
-        <th> Blog Title </th>
-        <th> Date </th>
-      </tr>
-      <tr>
-        <th> Image </th>
-        <th> first title of blog </th>
-        <th> Sept 5th 2022 </th>
-      </tr>
-    </table>
-  </div>
-  
-  <div id="About_Me" class="tabcontent">
-    <p> 
-      1. Here is an about me section.
-    </p>
-
-    <p> 
-      2. Here is a contact me form to my email. 
-    </p>
-
-    <p> 
-      3. Links to all my social medias.
-    </p>
-  </div>
-
-  <div id="Recommended_Resources" class="tabcontent">
-    <p> 
-      1. This will be a list of thumbnails of websites I recommend. 
-    </p>
-
-    <table>
-      <tr>
-        <th> Thumbnail </th>
-        <th> Recommmended Wesbites </th>
-        <th> Date </th>
-      </tr>
-      <tr>
-        <th> images </th>
-        <th> first website </th>
-        <th> Sept 5th 2022 </th>
-      </tr>
-    </table>
   </div>
 
   <footer> 
