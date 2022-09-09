@@ -15,17 +15,17 @@
     <p class="page_title"> AV Programming & More Blog</p>
   </div>
   
-  <div class="search_bar">
+  <div class="search_bar" title="Enter search text">
     <div class="search-container">
         <input type="text" placeholder="Search.." name="search">
-        <button type="submit">Submit</button>
+        <button title="Search with given entry" type="submit">Submit</button>
     </div>
   </div>
 
   <div class="tabs">
-    <button class="tablinks" onclick="openPage(event, 'Home')" id="defaultOpen"> Home </button>
-    <button class="tablinks" onclick="openPage(event, 'All_Blogs')"> All Blogs </button>
-    <button class="tablinks" onclick="openPage(event, 'About_Me')"> About Me </button>
+    <button class="tablinks" title="Home" onclick="openPage(event, 'Home')" id="defaultOpen"> Home </button>
+    <button class="tablinks" title="All Blogs" onclick="openPage(event, 'All_Blogs')"> All Blogs </button>
+    <button class="tablinks" title="About Me" onclick="openPage(event, 'About_Me')"> About Me </button>
   </div>
 
   <div id="Home" class="tabcontent">
@@ -41,14 +41,22 @@
     </article> 
 
     <article>
-      <table class="table">
+      <table class="table_blogs">
         <tr>
           <th> Top Blogs </th>
           <th> Date </th>
         </tr>
         <tr>
-          <td class="table_image"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
-          <td> Sept 5th 2022 </td>
+          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
+          <td> 09/05/22 </td>
+        </tr>
+        <tr>
+          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
+          <td> 09/05/22 </td>
+        </tr>
+        <tr>
+          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
+          <td> 09/05/22 </td>
         </tr>
       </table>
     </article>
@@ -56,9 +64,9 @@
     <article class="subscribe_article">
       <header class="article_title"> Subscribe Below </header>
       <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
-      <div class="subscribe_form">
+      <div class="subscribe_form" title="Enter email address">
             <input type="text" placeholder="Enter Email Address" name="subscribe">
-            <button type="submit">Subscribe</button>
+            <button type="submit" title="Subscribe with entered email address">Subscribe</button>
         </div>
     </article>
   </div>
@@ -66,14 +74,22 @@
 
   <div id="All_Blogs" class="tabcontent">
     <article>
-      <table class="table">
+      <table class="table_blogs">
         <tr>
           <th> Top Blogs </th>
           <th> Date </th>
         </tr>
         <tr>
-          <td><a href="#"><img src ="Images/header_background_01.jpg" height = "200" width = "300" /><br />Blog Title </a></td>
-          <td> Sept 5th 2022 </td>
+          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
+          <td> 09/05/22 </td>
+        </tr>
+        <tr>
+          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
+          <td> 09/05/22 </td>
+        </tr>
+        <tr>
+          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
+          <td> 09/05/22 </td>
         </tr>
       </table>
     </article>
@@ -81,9 +97,9 @@
     <article class="subscribe_article">
       <header class="article_title"> Subscribe Below </header>
       <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
-      <div class="subscribe_form">
+      <div class="subscribe_form" title="Enter email address">
             <input type="text" placeholder="Enter Email Address" name="subscribe">
-            <button type="submit">Subscribe</button>
+            <button type="submit" title="Subscribe with entered email address">Subscribe</button>
         </div>
     </article>
 
@@ -101,12 +117,23 @@
       </p>
     </article> 
 
+    <article>
+      <header class="article_title"> Contact Me Below </header>
+      <table class="table_contacts">
+        <tr>
+          <td class="table_image" title="Spiggle8@gmail.com"><a href="#"><img src ="Images/Gmail_Logo2.png" /><br /> Spiggle8@gmail.com </a></td>
+          <td class="table_image" title="Github/Spiggles8"><a href="#"><img src ="Images/Github_Logo2.png" /><br /> Github/Spiggles8 </a></td>
+          <td class="table_image" title="LinkedIn/Spiggle8"><a href="#"><img src ="Images/Linked_In_Logo.png" /><br /> LinkedIn/Spiggles8</a></td>
+        </tr>
+      </table>
+    </article> 
+
     <article class="subscribe_article">
       <header class="article_title"> Subscribe Below </header>
       <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
-      <div class="subscribe_form">
+      <div class="subscribe_form" title="Enter email address">
             <input type="text" placeholder="Enter Email Address" name="subscribe">
-            <button type="submit">Subscribe</button>
+            <button type="submit" title="Subscribe with entered email address">Subscribe</button>
         </div>
     </article>
   </div>
