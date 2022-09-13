@@ -1386,7 +1386,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			border-radius: 8px;
+			border-radius: 12px;
 		}
 
 		.image:before {
@@ -1395,7 +1395,7 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background: black;
+			background: transparent;
 			width: 100%;
 			height: 100%;
 			opacity: 0.75;
@@ -1426,6 +1426,10 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+
+	
+/* Thumbnail */
+
 
 /* Button */
 
@@ -1856,7 +1860,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		padding: 7em 0 7em 0;
+		padding: 2.5em 0 1em 0;
 	}
 
 		.wrapper > .inner {
@@ -1866,18 +1870,11 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			position: relative;
-			background-color: transparent;
-			background-repeat: no-repeat, no-repeat, repeat;
-			background-size: 100% 15em, 100% 15em, auto auto;
-			background-position: top center, bottom center, top left;
+
 		}
 
 		.wrapper.style3 {
 			position: relative;
-			background-color: transparent;
-			background-repeat: no-repeat, repeat;
-			background-size: 100% 15em, auto auto;
-			background-position: top center, top left;
 		}
 
 /* Header */
@@ -1992,7 +1989,7 @@ input, select, textarea {
 			}
 
 			.wrapper {
-				padding: 4.5em 0 4.5em 0;
+				padding: 2.5em 0 1em 0;
 			}
 
 		/* Banner */
@@ -2366,7 +2363,7 @@ input, select, textarea {
 				}
 
 			.wrapper {
-				padding: 3em 20px 3em 20px;
+				padding: 2em 20px 1em 20px;
 			}
 
 		/* Banner */
