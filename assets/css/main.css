@@ -2348,7 +2348,7 @@ input, select, textarea {
 
 			.box.spotlight {
 				margin-top: 2em;
-				background-color: rgba(255, 0, 0, 0.418);
+				background-color:transparent;
 			}
 
 		/* Wrappers */
