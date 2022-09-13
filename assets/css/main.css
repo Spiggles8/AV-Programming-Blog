@@ -88,7 +88,7 @@ input, select, textarea {
 
 	body {
 		background-color: black;
-		background-image: linear-gradient(rgba(0, 11, 26, 0.747), rgba(0, 52, 126, 0.637));
+		background-image: linear-gradient(rgba(0, 11, 26, 0.747), rgba(0, 77, 185, 0.719));
 	}
 	
 		body.is-preload * {
