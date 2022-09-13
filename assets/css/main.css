@@ -155,6 +155,11 @@ input, select, textarea {
 		margin-top: 2em;
 	}
 
+	#h3_table {
+		margin-top: 0em;
+		font-size: 1.11em;
+	}
+
 	b, strong {
 		color: white;
 		font-weight: 700;
@@ -1357,23 +1362,28 @@ input, select, textarea {
 					border-top: 0;
 				}
 
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
+			table td {
+				padding: 1.5em 0.5em;
+				vertical-align: middle;
+				text-align: center;
 			}
 
-			table.default th {
-				text-align: left;
-				padding: 0.5em 1em 0.5em 1em;
+			table th {
+				padding: 0.5em 1em 1.5em 1em;
 				text-transform: uppercase;
-				font-weight: 800;
 				letter-spacing: 0.04em;
 				margin: 0 0 1em 0;
-				font-size: 0.8em;
 			}
 
-			table.default thead {
-				background: #404248;
+			table thead {
+				background: transparent;
 				color: #fff;
+				text-align: center;
+				vertical-align: middle;
+				font-size: 1.25em;
+				font-weight: 800;
+				text-decoration: underline;
+				
 			}
 
 /* Image */
@@ -1885,7 +1895,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		border-radius: 10px;
-		background: rgba(2, 112, 255, 0.425);
+		background: rgba(0, 64, 148, 0.425);
 		padding: 0.75em;
 		margin-bottom: 0;
 	}
@@ -1893,9 +1903,9 @@ input, select, textarea {
 		#header .inner {
 			position: relative;
 			height: 5.5em;
-			background-color: rgba(2, 112, 255, 0.637);
+			background-color: rgba(0, 27, 61, 0.719);
 			border-radius: 8px;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
+			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45);
 		}
 
 		#header h1 {
@@ -2059,6 +2069,10 @@ input, select, textarea {
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
+				background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("/assets/images/bg02.png");
+				background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("/assets/images/bg02.png");
+				background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("/assets/images/bg02.png");
+				background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("/assets/images/bg02.png");
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
@@ -2089,9 +2103,9 @@ input, select, textarea {
 					position: absolute;
 					left: 0;
 					top: 0;
-					width: 60px;
-					height: 44px;
-					opacity: 0.25;
+					width: 80px;
+					height: 64px;
+					opacity: 0.75;
 				}
 
 					#titleBar .toggle:before {
@@ -2115,12 +2129,12 @@ input, select, textarea {
 						height: 44px;
 						line-height: 44px;
 						text-align: center;
-						color: #fff;
+						color: yellow;
 						content: '\f0c9';
 					}
 
 					#titleBar .toggle:active {
-						opacity: 0.5;
+						opacity: 1;
 					}
 
 
@@ -2129,6 +2143,10 @@ input, select, textarea {
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
+				background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
 				-moz-transform: translateX(-275px);
 				-webkit-transform: translateX(-275px);
 				-ms-transform: translateX(-275px);
