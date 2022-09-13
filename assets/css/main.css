@@ -1412,6 +1412,11 @@ input, select, textarea {
 			margin: 0 0 2.5em 0;
 		}
 
+		.image.thumbnail {
+			width: 25%;
+			margin: 0.8em;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1427,8 +1432,6 @@ input, select, textarea {
 				width: auto;
 			}
 
-	
-/* Thumbnail */
 
 
 /* Button */
