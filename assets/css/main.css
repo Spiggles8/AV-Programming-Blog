@@ -1,11 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800");
-@import url("fontawesome-all.min.css");
-
 /*
 	ZeroFour by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+@font-face {
+    font-family: 'Gravedigger';
+    src: url('/assets/fonts/Gravedigger-8BOZ.ttf');
+}
+@font-face {
+    font-family: 'ShareTech';
+    src: url('/assets/fonts/ShareTech-Regular.ttf');
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -22,7 +29,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'ShareTech';
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -103,7 +110,6 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
 		color: white;
 		font-weight: 400;
 		font-size: 11pt;
@@ -120,9 +126,10 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'GraveDigger';
 		text-transform: uppercase;
-		font-weight: 800;
-		letter-spacing: 0.04em;
+		font-weight: 100;
+		letter-spacing: 0.3em;
 		color: white;
 		margin: 0 0 1em 0;
 	}
@@ -1583,7 +1590,7 @@ input, select, textarea {
 	ul.menu li {
 		border-left: solid 1px silver;
 		display: inline-block;
-		padding: 0 0 0 1em;
+		padding: 0.3em 0 0 1em;
 		margin: 0 0 0 1em;
 	}
 
@@ -1699,7 +1706,6 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -1708,7 +1714,6 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
 		}
 
 		.icon > .label {
@@ -1722,6 +1727,7 @@ input, select, textarea {
 		right: 2em;
 		top: 0;
 		line-height: 5.5em;
+
 	}
 
 		#nav > ul > li {
@@ -1730,12 +1736,13 @@ input, select, textarea {
 		}
 
 			#nav > ul > li > a, #nav > ul > li > span {
+				font-family: 'GraveDigger';
 				color: #fff;
 				text-decoration: none;
 				text-transform: uppercase;
-				font-weight: 800;
-				font-size: 0.95em;
-				letter-spacing: 0.075em;
+				font-weight: 50;
+				font-size: 0.85em;
+				letter-spacing: 0.0em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
 				border-radius: 6px;
 				outline: 0;
@@ -1866,10 +1873,10 @@ input, select, textarea {
 
 	#footer-wrapper {
 		position: relative;
-		background-repeat: repeat-x, no-repeat, repeat;
+		background: transparent;
 		background-size: 100% 100%, 100% 15em, auto auto;
 		background-position: top left, top center, top left;
-		padding: 7em 0 7em 0;
+		padding: 2em 0 2em 0;
 	}
 
 	.wrapper {
@@ -1883,6 +1890,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			position: relative;
+			padding: 6em 2em 0em 2em;
 
 		}
 
@@ -1963,7 +1971,7 @@ input, select, textarea {
 		border-color: yellow;
 		text-align: center;
 		margin-top: 2em;
-		padding: 3em 0 4em 0;
+		padding: 1.5em 0 1em 0;
 		color: inherit;
 	}
 
@@ -2036,7 +2044,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1280px) {
 
 		/* Basic */
 
@@ -2092,9 +2100,9 @@ input, select, textarea {
 					font-weight: 800;
 					letter-spacing: 0.04em;
 					color: #fff;
-					line-height: 44px;
+					line-height: 48px;
 					text-align: center;
-					background: rgba(2, 112, 255, 0.808);
+					background: rgba(2, 42, 95, 0.808);
 					font-size: 20px;
 				}
 
@@ -2117,7 +2125,6 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
 					}
 
@@ -2181,7 +2188,7 @@ input, select, textarea {
 					font-weight: 700;
 					font-size: 0.95em;
 					letter-spacing: 0.075em;
-					background: rgba(3, 78, 175, 0.801);
+					background: rgba(0, 52, 121, 0.801);
 				}
 
 					#navPanel .link:first-child {
