@@ -1228,6 +1228,7 @@ input, select, textarea {
 							padding-top: 20px;
 						}
 
+
 		}
 
 /* Section/Article */
@@ -2418,5 +2419,36 @@ input, select, textarea {
 				margin-top: 0;
 				padding: 3em 0 1em 0;
 			}
+
+			#titleBar .title {
+				display: block;
+				text-transform: uppercase;
+				font-weight: 200;
+				letter-spacing: 0.5em;
+				color: #fff;
+				line-height: 48px;
+				text-align: center;
+				background: rgba(2, 42, 95, 0.808);
+				font-size: 16px;
+				font-family: 'GraveDigger';
+			}
+
+	}
+
+	/* Extra Small */
+
+	@media screen and (max-width: 515px) {
+		#titleBar .title {
+			display: block;
+			text-transform: uppercase;
+			font-weight: 200;
+			letter-spacing: 0.5em;
+			color: #fff;
+			line-height: 48px;
+			text-align: center;
+			background: rgba(2, 42, 95, 0.808);
+			font-size: 11px;
+			font-family: 'GraveDigger';
+		}
 
 	}
