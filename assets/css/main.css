@@ -3,6 +3,8 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 
 @font-face {
     font-family: 'Gravedigger';
@@ -1713,8 +1715,6 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
-		.icon.brands:before {
-		}
 
 		.icon > .label {
 			display: none;
@@ -2097,13 +2097,14 @@ input, select, textarea {
 				#titleBar .title {
 					display: block;
 					text-transform: uppercase;
-					font-weight: 800;
-					letter-spacing: 0.04em;
+					font-weight: 200;
+					letter-spacing: 0.5em;
 					color: #fff;
 					line-height: 48px;
 					text-align: center;
 					background: rgba(2, 42, 95, 0.808);
 					font-size: 20px;
+					font-family: 'GraveDigger';
 				}
 
 				#titleBar .toggle {
@@ -2129,6 +2130,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
+						font-family: 'Font Awesome 5 Free';
 						display: inline-block;
 						text-decoration: none;
 						font-size: 18px;
