@@ -1,147 +1,280 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-  <link rel="stylesheet" href="styles.css">
-  <title> AV Programming & More Blog</title>
+  <title> AV Programming.Tech </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body>
-  <script src="app.js"> </script>
+<body class="homepage is-preload">
+  <div id="page-wrapper">
 
-  <div class="image">
-    <p class="page_title"> AV Programming & More Blog</p>
-  </div>
-  
-  <div class="search_bar" title="Enter search text">
-    <div class="search-container">
-        <input type="text" placeholder="Search.." name="search">
-        <button title="Search with given entry" type="submit">Submit</button>
+
+    <!-- Header -->
+    <div id="header-wrapper">
+      <div class="container">
+
+        <!-- Header -->
+        <header id="header">
+          <div class="inner">
+
+            <!-- Logo -->
+            <h1><a class="logo" href="index.html">AV Programming.Tech <a/></h1>
+
+            <!-- Nav -->
+            <nav id="nav">
+
+              <ul>
+                <li class="current_page_item"><a href="index.html"> Home </a></li>
+                <li><a href="blogs.html"> Blogs </a></li>
+                <li><a href="forums.html"> Forums </a></li>
+                <li><a href="resources.html"> Resources </a></li>
+                <li><a href="about_me.html"> About Me </a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <!-- Banner -->
+        <div id="banner">
+          <h2> audio, video, and control programming blog </h2>
+          <p> Created for those interested in learning more about programming in the AV World </p>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="tabs">
-    <button class="tablinks" title="Home" onclick="openPage(event, 'Home')" id="defaultOpen"> Home </button>
-    <button class="tablinks" title="All Blogs" onclick="openPage(event, 'All_Blogs')"> All Blogs </button>
-    <button class="tablinks" title="About Me" onclick="openPage(event, 'About_Me')"> About Me </button>
-  </div>
 
-  <div id="Home" class="tabcontent">
-    <article>
-      <header class="article_title"> Welcome </header>
-      <p class="article_paragraph"> 
-        Hello there!
-        I am an Audio Video programmer working for a local state college implementing new technologies to classrooms. 
-        This is a field until 5-7 years ago I never even remotely considered or thought about. 
-        I graduated college with a bachelors degree in Biology and realistically minimal ideas or what I wanted for myself as a career. 
-        I had ideas of working an environmental job or teaching, but never gained enough desire to truly pursue those. 
-      </p>
-    </article> 
+    <!-- Main Wrapper -->
+    <div id="main-wrapper">
+      <div class="wrapper style1">
+        <div class="inner">
 
-    <article>
-      <table class="table_blogs">
-        <tr>
-          <th> Top Blogs </th>
-          <th> Date </th>
-        </tr>
-        <tr>
-          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
-          <td> 09/05/22 </td>
-        </tr>
-        <tr>
-          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
-          <td> 09/05/22 </td>
-        </tr>
-        <tr>
-          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
-          <td> 09/05/22 </td>
-        </tr>
-      </table>
-    </article>
-
-    <article class="subscribe_article">
-      <header class="article_title"> Subscribe Below </header>
-      <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
-      <div class="subscribe_form" title="Enter email address">
-            <input type="text" placeholder="Enter Email Address" name="subscribe">
-            <button type="submit" title="Subscribe with entered email address">Subscribe</button>
+          <!-- Feature 1 -->
+          <section class="container box feature1">
+            <div class="row">
+              <div class="col-12">
+                <header class="first major">
+                  <h2> Welcome </h2>
+                </header>
+                <h4 class="welcome"> Welcome to the AVProgramming.Tech site.
+                  This website is designed for those interested in learning more about the Audio Video programming
+                  world.
+                  My name is Sean and I have been an AV Programmer for the last 5 years working for an Integrator and
+                  now for a state college.
+                  I am by no means an expert in the field, however am more than willing to share what I have learned so
+                  far.
+                  Please enjoy taking a look around!
+                </h4>
+              </div>
+          </section>
         </div>
-    </article>
-  </div>
-  
+      </div>
 
-  <div id="All_Blogs" class="tabcontent">
-    <article>
-      <table class="table_blogs">
-        <tr>
-          <th> Top Blogs </th>
-          <th> Date </th>
-        </tr>
-        <tr>
-          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
-          <td> 09/05/22 </td>
-        </tr>
-        <tr>
-          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
-          <td> 09/05/22 </td>
-        </tr>
-        <tr>
-          <td class="table_image" title="Blog Title"><a href="#"><img src ="Images/header_background_01.jpg" /><br />Blog Title </a></td>
-          <td> 09/05/22 </td>
-        </tr>
-      </table>
-    </article>
 
-    <article class="subscribe_article">
-      <header class="article_title"> Subscribe Below </header>
-      <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
-      <div class="subscribe_form" title="Enter email address">
-            <input type="text" placeholder="Enter Email Address" name="subscribe">
-            <button type="submit" title="Subscribe with entered email address">Subscribe</button>
-        </div>
-    </article>
+      <div class="wrapper style3">
+        <div class="inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-8 col-12-medium">
 
-  </div>
-  
-  <div id="About_Me" class="tabcontent">
-    <article>
-      <header class="article_title"> About Me </header>
-      <p class="article_paragraph"> 
-        Hello there!
-        I am an Audio Video programmer working for a local state college implementing new technologies to classrooms. 
-        This is a field until 5-7 years ago I never even remotely considered or thought about. 
-        I graduated college with a bachelors degree in Biology and realistically minimal ideas or what I wanted for myself as a career. 
-        I had ideas of working an environmental job or teaching, but never gained enough desire to truly pursue those. 
-      </p>
-    </article> 
+                <!-- Article list -->
+                <section class="box article-list">
+                  <h2> Recent Posts </h2>
 
-    <article>
-      <header class="article_title"> Contact Me Below </header>
-      <table class="table_contacts">
-        <tr>
-          <td class="table_image" title="Spiggle8@gmail.com"><a href="#"><img src ="Images/Gmail_Logo2.png" /><br /> Spiggle8@gmail.com </a></td>
-          <td class="table_image" title="Github/Spiggles8"><a href="#"><img src ="Images/Github_Logo2.png" /><br /> Github/Spiggles8 </a></td>
-          <td class="table_image" title="LinkedIn/Spiggle8"><a href="#"><img src ="Images/Linked_In_Logo.png" /><br /> LinkedIn/Spiggles8</a></td>
-        </tr>
-      </table>
-    </article> 
+                  <!-- Excerpt -->
+                  <article class="box excerpt">
+                    <a href="/adventuring_in_different_areas_of_programming.html" class="image left"><img src="/assets/images/programming_keyboard.gif"
+                        alt="Programmer at keyboard"></a>
+                    <div>
+                      <header>
+                        <span class="date"> September 16th </span>
+                        <h3><a href="/adventuring_in_different_areas_of_programming.html"> Adventuring in Different Areas of Programming </a></h3>
+                      </header>
+                      <p> Am I the only one who is constantly struggling with there being too much tech out there and wanting to know more than I currently can handle?
+                        I feel like the more I progress in some piece of technology, the more questions that are opened up and the more possible avenues I can go down. 
+                        Ultimately, I just want to continue growing my understanding of certain technologies not just vertically but also horizontally. 
+                        What I mean by this is
+                        <a class = "continuation" href="/adventuring_in_different_areas_of_programming.html">...</a>
+                      </p>
+                    </div>
+                  </article>
 
-    <article class="subscribe_article">
-      <header class="article_title"> Subscribe Below </header>
-      <p class="subscribe_text"> Enter Email Address and press subscribe to stay up to date with the latest blogs and news!</p>
-      <div class="subscribe_form" title="Enter email address">
-            <input type="text" placeholder="Enter Email Address" name="subscribe">
-            <button type="submit" title="Subscribe with entered email address">Subscribe</button>
-        </div>
-    </article>
-  </div>
+                  <!-- Excerpt -->
+                  <article class="box excerpt">
+                    <a href="/life_as_a_newbie_av_programmer.html" class="image left">
+                      <img src="/assets/images/sample_crestron_space.gif" alt="sample crestron space"></a>
+                    <div>
+                      <header>
+                        <span class="date"> September 9th </span>
+                        <h3><a href="/Blogs/life_as_a_newbie_av_programmer.html"> Life as a Newbie AV Programmer </a></h3>
+                      </header>
+                      <p> My very first experience with any of AV Tech was setting up Crestron Toolbox (Crestron's software to manage devices) and accidentally deleting my office's touch panel file.
+                        I was suppossed to just reset the touch panel, but found out too late reboot and reset are two very different processes.
+                        Thankfully we had back-ups and I was able to figure that out barely in time before the boss showed back up. 
+                        To be perfectly honest, this sums up my AV career somewhat, things go terribly wrong a good portion of the time, but
+                        <a class = "continuation" href="/Blogs/life_as_a_newbie_av_programmer.html">...</a>
+                      </p>
+                    </div>
+                  </article>
 
-  <footer> 
-    <p> Author: Sean Spiggle </p>
-  </footer>
+                  <!-- Excerpt -->
+                  <article class="box excerpt">
+                    <a href="/my_experience_in_the_tech_booth.html" class="image left">
+                      <img src="/assets/images/church_tech_booth.gif" alt="church tech booth"></a>
+                    <div>
+                      <header>
+                        <span class="date"> September 2nd </span>
+                        <h3><a href="/my_experience_in_the_tech_booth.html"> My Experience In The Tech Booth </a></h3>
+                      </header>
+                      <p> It’s crazy to think that until 6 years ago I had never even anything related to my church’s tech booth. 
+                        It was always this mysterious black box where magic happened. 
+                        It wasn’t till I was interested in serving more and the two options of need were: parking lot and lighting. 
+                        For me it was one of the more impactful decisions in my life
+                        <a class = "continuation" href="/my_experience_in_the_tech_booth.html">...</a>
+                      </p>
+                    </div>
+                  </article>
+                </section>
+              </div>
+              <div class="col-4 col-12-medium">
 
+                <!-- Spotlight -->
+                <section class="box spotlight">
+                  <h2> News </h2>
+                  <a href="/the_journey_so_far.html" class="image featured">
+                    <img src="/assets/images/artsy_programming.gif" alt="artsy programming desk"></a>
+                  <article>
+                    <header>
+                      <h3><a href="https://www.hollywoodreporter.com/business/business-news/imax-ceo-touts-pivot-to-live-events-exclusive-runs-in-big-screen-theaters-1235220602/" target="_blank"> Imax CEO Touts Pivot to Live Events, Exclusive Runs in Big Screen Theaters </a></h3>
+                      <span class="date"> September 14th </span>
+                    </header>
+                    <header>
+                      <h3><a href="https://www.businesswire.com/news/home/20220818005143/en/Q-SYS-Delivers-Mass-Scale-Experiences-to-Resorts-World-Las-Vegas" target="_blank"> Q-SYS Delivers Mass-Scale Experiences to Resorts World Las Vegas </a></h3>
+                      <span class="date"> August 18th </span>
+                    </header>
+                    <header>
+                      <h3><a href="https://www.newsshooter.com/2022/08/17/marshall-intelligent-auto-tracking-ai-features-for-its-ptz-cameras/" target="_blank"> Marshall adds Intelligent Auto-Tracking AI features for its PTZ Cameras </a></h3>
+                      <span class="date"> August 18th </span>
+                    </header>
+                    <header>
+                      <h3><a href="https://www.ravepubs.com/crestron-takes-aim-at-qsc-with-new-vc-4-virtual-control-system/" target="_blank"> Crestron Takes Aim at QSC With New VC-4 Virtual Control System </a></h3>
+                      <span class="date"> April 6th </span>
+                    </header>
+
+                  </article>
+                </section>
+              </div>
+
+
+              <div class="wrapper style1">
+                <div class="inner">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6 col-12-medium">
+
+                        <!-- Article list -->
+                        <section class="box article-list">
+                          <h2> Get In Touch </h2>
+                          <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRvxmXZZkzpZGRBSmFkPWxrMPbTCrCHxWCrClTrlzpTVlZNWNWmPcswlPTsXdWFHXGWkRMl"
+                            target="_blank" rel="noopener noreferrer" class="image thumbnail">
+                            <img src="./assets/images/Gmail_Logo.gif" alt="Gmail Logo"></a>
+                          <a href="https://www.linkedin.com/in/seanspiggle/" target="_blank" rel="noopener noreferrer"
+                            class="image thumbnail">
+                            <img src="./assets/images/Linked_In_Logo.gif" alt="LinkedIn Logo"></a>
+                          <a href="https://github.com/Spiggles8" target="_blank" rel="noopener noreferrer"
+                            class="image thumbnail">
+                            <img src="assets\images\Github_Logo.png" alt="GitHub Logo"></a>
+                        </section>
+
+                      </div>
+                      <div class="col-6 col-12-medium">
+                        <div class="form">
+                          <form
+                            action="https://tech.us14.list-manage.com/subscribe/post?u=ea6063c30558920f0790168c5&amp;id=ef07a609d7&amp;f_id=008ffce0f0"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate" target="_blank" novalidate>
+                            <h2>Subscribe</h2>
+                            <div class="mc-field-group">
+                              <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                              </label>
+                              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                            </div>
+                            <div class="mc-field-group">
+                              <label for="mce-FNAME">Name <span class="asterisk">*</span>
+                              </label>
+                              <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required>
+                            </div>
+                            <div id="mce-responses" class="clear foot">
+                              <div class="response" id="mce-error-response"></div>
+                              <div class="response" id="mce-success-response"></div>
+                            </div>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                name="b_ea6063c30558920f0790168c5_ef07a609d7" tabindex="-1" value=""></div>
+                            <div class="optionalParent">
+                              <div class="clear foot">
+                                <input type="submit" value="Subscribe Now" name="subscribe" id="mc-embedded-subscribe"
+                                  class="button">
+                              </div>
+                          </form>
+                        </div>
+                        <script type='text/javascript'
+                          src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                        <script
+                          type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+
+                      </div>
+                    </div>
+                    <!-- Begin Mailchimp Signup Form -->
+                    <!--End mc_embed_signup-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Wrapper -->
+          <div id="footer-wrapper">
+            <footer id="footer" class="container">
+              <div class="row">
+                <div class="col-6 col-12-medium imp-medium">
+                  <!-- Contact -->
+                </div>
+                <div class="col-12">
+                  <div id="copyright">
+                    <ul class="menu">
+                      <li><a href="index.html"> Return to top of Homepage</a></li>
+                    </ul>
+                    <ul class="menu">
+                      <li>&copy; 2022 AVProgramming.Tech. All rights reserved </li>
+                      <li><a href="/privacy_policy.html"> Privacy Policy </a></li>
+                    </ul>
+                    <ul class="menu">
+                      <li> Website Design: <a href="https://html5up.net/zerofour"> HTML5 UP - ZeroFour Template </a>
+                      </li>
+                      <li> Email Provider: <a href="https://www.mailchimp.com"> Mail Chimp </a></li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </footer>
+          </div>
+          <!-- Scripts -->
+          <script src="assets/js/jquery.min.js"></script>
+          <script src="assets/js/jquery.dropotron.min.js"></script>
+          <script src="assets/js/browser.min.js"></script>
+          <script src="assets/js/breakpoints.min.js"></script>
+          <script src="assets/js/util.js"></script>
+          <script src="assets/js/main.js"></script>
 </body>
 
 </html>
