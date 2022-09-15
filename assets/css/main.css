@@ -30,7 +30,8 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 100.2%;
+	letter-spacing: 0.3px;
 	font-family: 'ShareTech';
 	vertical-align: baseline;}
 
@@ -81,6 +82,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+p.blog {
+	font-size: 125%;;
+}
+
 /* Basic */
 
 	html {
@@ -123,8 +128,18 @@ input, select, textarea {
 		text-decoration: underline;
 	}
 
-		a:hover {
-			text-decoration: none;
+	a:hover {
+		color: silver;
+		font-size: 22px;
+	}
+
+	a.continuation {
+		text-decoration: none;
+	}
+
+		a.continuation:hover {
+			color: silver;
+			font-size: 20px;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1272,14 +1287,14 @@ input, select, textarea {
 	}
 
 	header.major {
-		border-bottom: solid 1.5px yellow;
+		border-bottom: solid 1.5px silver;
 		margin: 0 0 3em 0;
 	}
 
 		header.major:after {
 			content: '';
 			display: block;
-			border-top: solid 1.5px yellow;
+			border-top: solid 1.5px silver;
 			height: 8px;
 		}
 
@@ -1293,6 +1308,11 @@ input, select, textarea {
 			top: -1em;
 		}
 
+		h4.welcome {
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			font-size: 20px;
+		}
+
 /* Forms */
 
 	form label {
@@ -1300,7 +1320,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		font-weight: 800;
 		letter-spacing: 0.04em;
-		color: yellow;
+		color: silver;
 		margin: 0 0 1em 0;
 		font-size: 1.1em;
 	}
@@ -1682,7 +1702,7 @@ input, select, textarea {
 	}
 
 	.box.article-list article {
-		border-bottom: solid 2px yellow;
+		border-bottom: solid 2px silver;
 		margin: 0 0 2.75em 0;
 		padding: 0 0 2.75em 0;
 	}
@@ -1808,7 +1828,7 @@ input, select, textarea {
 	}
 
 		#banner h2 {
-			border: solid 2px yellow;
+			border: solid 2px silver;
 			border-left: 0;
 			border-right: 0;
 			color: white;
@@ -1892,12 +1912,13 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			position: relative;
-			padding: 6em 2em 0em 2em;
+			padding: 10em 2em 0em 2em;
 
 		}
 
 		.wrapper.style3 {
 			position: relative;
+			padding: 8em 0em 2em 2em;
 		}
 
 /* Header */
@@ -1953,7 +1974,7 @@ input, select, textarea {
 		}
 
 		#footer ul.divided li, #footer ul.menu li {
-			border-color: yellow;
+			border-color: silver;
 		}
 
 		#footer ul.divided li a {
@@ -1970,7 +1991,7 @@ input, select, textarea {
 
 	#copyright {
 		border-top: solid 4px;
-		border-color: yellow;
+		border-color: silver;
 		text-align: center;
 		margin-top: 2em;
 		padding: 1.5em 0 1em 0;
@@ -2136,7 +2157,7 @@ input, select, textarea {
 						height: 44px;
 						line-height: 44px;
 						text-align: center;
-						color: yellow;
+						color: silver;
 						content: '\f0c9';
 					}
 
