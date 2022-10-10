@@ -7,6 +7,8 @@
 @import 'libs/colors';
 @import 'libs/graphics';
 @import 'libs/fonts';
+
+@import url("/assets/sass/fontawesome-all.min.css");
 /*
 	ZeroFour by HTML5 UP
 	html5up.net | @ajlkn
@@ -1220,13 +1222,14 @@
 					&:before {
 						display: inline-block;
 						text-decoration: none;
-						font-size: 18px;
+						font-size: 30px;
 						width: 44px;
 						height: 44px;
 						line-height: 44px;
 						text-align: center;
 						color: $text-primary-color;
-						content: url('/assets/images/menu_icon.png');
+						font-family: 'Font Awesome 5 Free';
+						content: '\f0c9';
 					}
 
 					&:active {
@@ -1424,13 +1427,14 @@
 					&:before {
 						display: inline-block;
 						text-decoration: none;
-						font-size: 18px;
+						font-size: 30px;
 						width: 44px;
 						height: 44px;
 						line-height: 44px;
 						text-align: center;
 						color: $text-primary-color;
-						content: url('/assets/images/menu_icon.png');
+						font-family: 'Font Awesome 5 Free';
+						content: '\f0c9';
 					}
 
 					&:active {

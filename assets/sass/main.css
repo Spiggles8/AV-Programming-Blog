@@ -1,3 +1,4 @@
+@import url("/assets/sass/fontawesome-all.min.css");
 @font-face {
   font-family: "gravedigger";
   src: url("/assets/fonts/gravedigger.ttf"), url("/assets/fonts/gravedigger.woff") format("woff"), url("/assets/fonts/gravedigger.woff2") format("woff2");
@@ -2249,13 +2250,14 @@ ol.default li {
   #titleBar .toggle:before {
     display: inline-block;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     width: 44px;
     height: 44px;
     line-height: 44px;
     text-align: center;
     color: white;
-    content: url("/assets/images/menu_icon.png");
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c9";
   }
   #titleBar .toggle:active {
     opacity: 0.5;
@@ -2425,13 +2427,14 @@ ol.default li {
   #titleBar .toggle:before {
     display: inline-block;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     width: 44px;
     height: 44px;
     line-height: 44px;
     text-align: center;
     color: white;
-    content: url("/assets/images/menu_icon.png");
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c9";
   }
   #titleBar .toggle:active {
     opacity: 0.5;
