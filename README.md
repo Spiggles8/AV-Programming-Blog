@@ -1,34 +1,25 @@
-# AV_Programming_and_More_Blog
+# AV_Programming_Blog
 
-ZeroFour by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+TECHNOLOGIES USED: HTML, SASS, and JavaScript.
+
+This site is a standard blog from the perspective of an AV programmer. It features a home page with recent blog posts, news, and a subscribe form. 
+ZeroFour by HTML5 UP was used as a template, however heavy modifications were made to fit website's needs. 
+
+![image](https://user-images.githubusercontent.com/110023169/203030237-10398015-1ccf-4b4f-bea7-91f4a3774563.png)
 
 
-A responsive general purpose site template design named as such because it's the fourth
-design up here (very creative I know). Has plenty of room for all sorts of content
-and even multilevel drop down menus.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
+Future Updates/Considerations: 
+1. Add in a like and comment feature (will it need a login feature?).
+2. If I add in a login feature (will need a demo login).
+3. Continue adding more posts.
+4. Look up way to auto-update News Section using an API.
+5. Create a forum page. 
+6. Create a way to more easier add blog posts. 
 
 Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
+		ZeroFour by HTML5 UP | html5up.net
+		AJ ! ak@lkn.io | @ajlkn 
 		Font Awesome (fontawesome.io)
-
-	Other:
 		jQuery (jquery.com)
 		Dropotron (github.com/ajlkn/jquery.dropotron)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
