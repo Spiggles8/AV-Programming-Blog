@@ -23,3 +23,7 @@ Credits:
 		jQuery (jquery.com)
 		Dropotron (github.com/ajlkn/jquery.dropotron)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+		
+		
+Future Ideas: Re-factor this site using ASP.NET in order to make this site more useable in terms of adding/editing blog posts. I want to link everything to a database and have users to be able to make comments and like blog posts. 
